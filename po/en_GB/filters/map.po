@@ -197,7 +197,7 @@ msgid ""
 "That's the number of copies you want to apply to image. This value varies "
 "from -32 to 64. Negative values invert kaleidoscope rotation."
 msgstr ""
-"That's the number of copies you want to apply to image. This value varies "
+"That's the number of copies you want to apply to the image. This value varies "
 "from -32 to 64. Negative values invert kaleidoscope rotation."
 
 #: src/filters/map/illusion.xml:98(term)
@@ -339,7 +339,7 @@ msgid ""
 "tiles</quote>, where <quote>n</quote> is the number you set with the slider "
 "or its input box. n = 3 will make nine tiles in the image."
 msgstr ""
-"<guilabel>n²</guilabel> means <quote>the image into n to the power of two "
+"<guilabel>n²</guilabel> means <quote>the image will have n to the power of two "
 "tiles</quote>, where <quote>n</quote> is the number you set with the slider "
 "or its input box. n = 3 will make nine tiles in the image."
 
@@ -444,7 +444,7 @@ msgid ""
 "corresponding to solid areas are not displaced; the higher the slope, the "
 "higher the displacement."
 msgstr ""
-"This filter displaces pixels of active layer or selection according to the "
+"This filter displaces pixels of the active layer or selection according to the "
 "grey levels of a <emphasis>Displacement map</emphasis>. Pixels are displaced "
 "according to the gradient slope in the displacement map. Pixels "
 "corresponding to solid areas are not displaced; the higher the slope, the "
@@ -462,7 +462,7 @@ msgid ""
 "(angle = 90°)."
 msgstr ""
 "Solid areas of displacement map lead to no displacement. Abrupt transitions "
-"give an important displacement. A linear gradient gives a regular "
+"give a stronger displacement. A linear gradient gives a regular "
 "displacement. Displacement direction is perpendicular to gradient direction "
 "(angle = 90°)."
 
@@ -993,7 +993,7 @@ msgstr ""
 
 #: src/filters/map/bumpmap.xml:165(term)
 msgid "Azimut"
-msgstr "Azimut"
+msgstr "Azimuth"
 
 #: src/filters/map/bumpmap.xml:167(para)
 msgid ""
@@ -1056,9 +1056,9 @@ msgid ""
 msgstr ""
 "If your image has transparent areas, they will be treated like dark areas "
 "and will appear as hollows after bump-mapping. With this slider, you can "
-"reduce hollows as if sea level was raising. This hollows will disappear when "
+"reduce hollows as if sea level was rising. These hollows will disappear when "
 "sea level value reaches 255. If the Invert bump-map option is checked, "
-"transparent areas will be treated as bright areas, and then Waterlevel "
+"transparent areas will be treated as bright areas, and then the Waterlevel "
 "slider will plane bumps down."
 
 #: src/filters/map/bumpmap.xml:218(term)
@@ -1184,7 +1184,7 @@ msgid ""
 "treating them:"
 msgstr ""
 "Because of image cutting, original pixels can persist. There are three ways "
-"treating them:"
+"of treating them:"
 
 #: src/filters/map/papertile.xml:125(guilabel)
 msgid "Background"
@@ -1532,7 +1532,7 @@ msgid ""
 "These options allows you to set displacement behaviour on active layer or "
 "selection edges:"
 msgstr ""
-"These options allows you to set displacement behaviour on active layer or "
+"These options allow you to set displacement behaviour on the active layer or "
 "selection edges:"
 
 #: src/filters/map/displace.xml:141(para)
@@ -1645,7 +1645,7 @@ msgid ""
 "of a positive one. The value varies in limits equal to the double of image "
 "dimensions."
 msgstr ""
-"This value may be positive or negative. A negative displacement is reverse "
+"This value may be positive or negative. A negative displacement is the reverse "
 "of a positive one. The value varies in limits equal to the double of image "
 "dimensions."
 
@@ -1668,7 +1668,7 @@ msgstr ""
 "image. Most often, it will be a duplicate original image, which is "
 "transformed to grey scale and modified appropriately, with a gradient. It "
 "may be possible to use RGB images, but color luminosity is used making "
-"result prevision difficult. Map may be different in horizontal and vertical "
+"result prediction difficult. Map may be different in horizontal and vertical "
 "directions."
 
 #: src/filters/map/displace.xml:252(title)
@@ -1699,7 +1699,7 @@ msgstr ""
 "the image's midpoint, the <quote>pole</quote>) of the pixels will be "
 "changed. Image pixels corresponding to map pixels from 0 to 127 will be "
 "displaced outwards, image pixels corresponding to pixels from 128 to 255 "
-"will be displaced towards center."
+"will be displaced towards the center."
 
 #: src/filters/map/displace.xml:277(para)
 msgid ""
@@ -2030,7 +2030,7 @@ msgstr ""
 "Input boxes and their arrow-heads allow you to enter the dimensions for the "
 "new image. Both directions are linked by default with a chain <placeholder-1/"
 ">. You can make them independent by breaking this chain. You can choose a "
-"unit else than pixel by clicking on the drop-down list button."
+"unit other than pixels by clicking on the drop-down list button."
 
 #: src/filters/map/tile.xml:93(para)
 msgid ""
@@ -2039,7 +2039,7 @@ msgid ""
 "original sizes if you don't want to have truncated tiles."
 msgstr ""
 "<emphasis>The new image must be bigger than the original one</emphasis>. "
-"Else, you will get an image sample only. Choose sizes which are multiple of "
+"Else, you will get an image sample only. Choose sizes which are multiples of "
 "original sizes if you don't want to have truncated tiles."
 
 #: src/filters/map/tile.xml:102(term) src/filters/map/map-object.xml:169(term)
@@ -2189,7 +2189,7 @@ msgid ""
 msgstr ""
 "This filter modifies the image for tiling by creating seamless edges. Such "
 "an image can be used as a pattern for a web-page. This filter has no option, "
-"and result may need correction."
+"and the result may need correction."
 
 #: src/filters/map/make-seamless.xml:51(title)
 msgid "Activation"
@@ -2358,7 +2358,7 @@ msgid ""
 "Puts a grid over the preview to make displacements and rotations more easy. "
 "Works well on a plan."
 msgstr ""
-"Puts a grid over the preview to make displacements and rotations more easy. "
+"Puts a grid over the preview to make displacements and rotations easier. "
 "Works well on a plan."
 
 #: src/filters/map/map-object.xml:120(title)
@@ -2392,7 +2392,7 @@ msgid ""
 "This option makes image transparent around the object. If not set, the "
 "background is filled with the current background color."
 msgstr ""
-"This option makes image transparent around the object. If not set, the "
+"This option makes the image transparent around the object. If not set, the "
 "background is filled with the current background color."
 
 #: src/filters/map/map-object.xml:152(term)
@@ -2474,7 +2474,7 @@ msgid ""
 "emphasis>."
 msgstr ""
 "In this dropdown list, you can select among <emphasis>Point light</"
-"emphasis>, <emphasis>Directionnal light</emphasis> and <emphasis>No light</"
+"emphasis>, <emphasis>Directional light</emphasis> and <emphasis>No light</"
 "emphasis>."
 
 #: src/filters/map/map-object.xml:237(guilabel)

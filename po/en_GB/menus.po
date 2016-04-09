@@ -476,7 +476,7 @@ msgid ""
 msgstr ""
 "This command opens the list of the docks you have closed recently. You can "
 "reopen them by clicking on their name. Please note that isolated windows are "
-"not concerned."
+"not affected."
 
 #: src/menus/windows-open-recent-docks.xml:25(para)
 msgid ""

@@ -163,7 +163,7 @@ msgid ""
 "This filter not only can erase each other row or column of the active layer "
 "but also can change them to the background color."
 msgstr ""
-"This filter not only can erase each other row or column of the active layer "
+"This filter not only can erase each alternate row or column of the active layer "
 "but also can change them to the background color."
 
 #: src/filters/distort/erase_rows.xml:53(title)
@@ -442,7 +442,7 @@ msgid ""
 "You have there four radio buttons to select the corner you want raise. The "
 "Preview is redundant and doesn't respond to other options."
 msgstr ""
-"You have there four radio buttons to select the corner you want raise. The "
+"You have there four radio buttons to select the corner you want to raise. The "
 "Preview is redundant and doesn't respond to other options."
 
 #: src/filters/distort/pagecurl.xml:88(term)
@@ -455,7 +455,7 @@ msgid ""
 "the border you want raise."
 msgstr ""
 "<emphasis>Horizontal</emphasis> and <emphasis>Vertical</emphasis> refer to "
-"the border you want raise."
+"the border you want to raise."
 
 #: src/filters/distort/pagecurl.xml:97(term)
 msgid "Shade under curl"
@@ -744,7 +744,7 @@ msgid ""
 "introduced in photo images by the glasses contained in the camera lenses."
 msgstr ""
 "This filter lets you simulate but also correct the typical distortion effect "
-"introduced in photo images by the glasses contained in the camera lenses."
+"introduced in photo images by the optics in the camera lenses."
 
 #: src/filters/distort/lens-distortion.xml:54(para)
 msgid ""
@@ -863,7 +863,7 @@ msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:220(title)
 msgid "Example result of Brigthen option (Main set to 75.0)"
-msgstr "Example result of Brigthen option (Main set to 75.0)"
+msgstr "Example result of Brighten option (Main set to 75.0)"
 
 #: src/filters/distort/lens-distortion.xml:227(para)
 msgid "-25.0"
@@ -1009,8 +1009,8 @@ msgid ""
 "<emphasis>Reset</emphasis> button."
 msgstr ""
 "Here, the Preview is your work space: You click on the Preview and drag "
-"mouse pointer. The underlying part of image will be deformed according to "
-"the settings you have chosen. If your work is not convenient, press the "
+"the mouse pointer. The underlying part of image will be deformed according to "
+"the settings you have chosen. If the result is not satisfactory, press the "
 "<emphasis>Reset</emphasis> button."
 
 #: src/filters/distort/IWarp.xml:109(term)
@@ -1036,7 +1036,7 @@ msgid ""
 "whole image. Be careful when working on an animation: this option will "
 "affect one frame only."
 msgstr ""
-"This remove the distortion where you drag the mouse pointer, partially or "
+"This removes the distortion where you drag the mouse pointer, partially or "
 "completely. This allows you to avoid pressing Reset button, working on the "
 "whole image. Be careful when working on an animation: this option will "
 "affect one frame only."
@@ -1132,7 +1132,7 @@ msgid ""
 "threshold a new sampling iteration is performed on the pixel."
 msgstr ""
 "When the value difference between a pixel and the adjacent ones exceeds this "
-"threshold a new sampling iteration is performed on the pixel."
+"threshold, a new sampling iteration is performed on the pixel."
 
 #: src/filters/distort/IWarp.xml:221(title)
 msgid "Animate"
@@ -1252,7 +1252,7 @@ msgid ""
 msgstr ""
 "All your setting changes will appear in the Preview without affecting the "
 "image until you click on <guilabel>OK</guilabel>. Note that the preview "
-"displays only a part of the whole image if the filter is applied to an "
+"displays only a part of the whole image if the filter is applied to a "
 "selection. Don't keep <guilabel>Preview</guilabel> checked if your computer "
 "is too slow."
 
@@ -1262,7 +1262,7 @@ msgstr "Tiling primitives"
 
 #: src/filters/distort/mosaic.xml:95(para)
 msgid "This option is self-understanding:"
-msgstr "This option is self-understanding:"
+msgstr "This option is self-explaining:"
 
 #: src/filters/distort/mosaic.xml:100(guilabel)
 msgid "Squares"
@@ -1284,7 +1284,6 @@ msgstr "6 edges (hexa = 6)"
 msgid "Octagons &amp; squares"
 msgstr "Octagons &amp; squares"
 
-#. TODO: check: it looks like "squares" is a lie
 #: src/filters/distort/mosaic.xml:115(para)
 msgid "8 or 4 edges (octa = 8)"
 msgstr "8 or 4 edges (octa = 8)"
@@ -1402,7 +1401,7 @@ msgstr "Pitted surfaces"
 
 #: src/filters/distort/mosaic.xml:215(para)
 msgid "With this option tile surface looks pitted."
-msgstr "With this option tile surface looks pitted."
+msgstr "With this option the tile surface looks pitted."
 
 #: src/filters/distort/mosaic.xml:221(term)
 msgid "FG/BG lighting"
@@ -1781,7 +1780,7 @@ msgid ""
 "emphasis>. The whirlpool is focused around the center of the current layer "
 "or selection."
 msgstr ""
-"Changes to parameters are immediately displayed into the <emphasis>Preview</"
+"Changes to parameters are immediately displayed in the <emphasis>Preview</"
 "emphasis>. The whirlpool is focused around the center of the current layer "
 "or selection."
 
@@ -1872,7 +1871,7 @@ msgid ""
 "reminding a reflection on disturbed water."
 msgstr ""
 "It displaces the pixels of the active layer or selection to waves or ripples "
-"reminding a reflection on disturbed water."
+"resembling a reflection on disturbed water."
 
 #: src/filters/distort/ripple.xml:53(para)
 msgid ""
@@ -1992,8 +1991,8 @@ msgid ""
 "the same setting but Phase shift differs by 180 brings the once processed "
 "image back to become almost similar to the first original image."
 msgstr ""
-"It is angle to delay the wave (0-360 degree). Appling this filter again with "
-"the same setting but Phase shift differs by 180 brings the once processed "
+"It is angle to delay the wave (0-360 degree). Applying this filter again with "
+"the same setting but Phase shift different by 180 degrees brings the once processed "
 "image back to become almost similar to the first original image."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -3026,7 +3025,7 @@ msgid ""
 "Slider and input box allow to wide battens giving the impression they are "
 "closing, or to narrow them, giving the impression they are opening."
 msgstr ""
-"Slider and input box allow to wide battens giving the impression they are "
+"Slider and input box allow to widen battens giving the impression they are "
 "closing, or to narrow them, giving the impression they are opening."
 
 #: src/filters/distort/blinds.xml:115(term)
@@ -3407,7 +3406,7 @@ msgid ""
 "calculation and may lengthen work. It is particularly evident when using "
 "<quote>Rotation</quote>."
 msgstr ""
-"With this option, preview is changed in real time. This needs much "
+"With this option, preview is changed in real time. This needs a lot of "
 "calculation and may lengthen work. It is particularly evident when using "
 "<quote>Rotation</quote>."
 
@@ -3467,7 +3466,7 @@ msgid ""
 "want. You can create several nodes on the curve."
 msgstr ""
 "In this grid, you have a marked horizontal line, with a node at both ends, "
-"which represents by default the upper border of image. If you click on this "
+"which represents by default the upper border of the image. If you click on this "
 "curve, a new node appears, that you can drag to modify the curve as you "
 "want. You can create several nodes on the curve."
 

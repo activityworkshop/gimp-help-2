@@ -203,7 +203,7 @@ msgid ""
 "matrix. With the Convolution Matrix filter, if the fancy takes you, you can "
 "build a custom filter."
 msgstr ""
-"Here is a mathematician's domain. Most of filters are using convolution "
+"Here is a mathematician's domain. Most filters are using a convolution "
 "matrix. With the Convolution Matrix filter, if the fancy takes you, you can "
 "build a custom filter."
 
@@ -215,8 +215,8 @@ msgid ""
 "quote>."
 msgstr ""
 "What is a convolution matrix? It's possible to get a rough idea of it "
-"without using mathematical tools that only a few ones know. Convolution is "
-"the treatment of a matrix by another one which is called <quote>kernel</"
+"without using mathematical tools that only a few know. Convolution is "
+"the treatment of a matrix by another one which is called the <quote>kernel</"
 "quote>."
 
 #: src/filters/generic/convol-matrix.xml:38(para)
@@ -319,7 +319,7 @@ msgstr "Matrix"
 msgid ""
 "This is the 5x5 kernel matrix: you enter wanted values directly into boxes."
 msgstr ""
-"This is the 5x5 kernel matrix: you enter wanted values directly into boxes."
+"This is the 5x5 kernel matrix: you enter the desired values directly into the boxes."
 
 #: src/filters/generic/convol-matrix.xml:115(guilabel)
 msgid "Divisor"
@@ -356,7 +356,7 @@ msgid ""
 "When the initial pixel is on a border, a part of kernel is out of image. You "
 "have to decide what filter must do:"
 msgstr ""
-"When the initial pixel is on a border, a part of kernel is out of image. You "
+"When the initial pixel is on a border, a part of kernel is out of the image. You "
 "have to decide what filter must do:"
 
 #: src/filters/generic/convol-matrix.xml:170(para)
@@ -442,7 +442,7 @@ msgid ""
 "Design of kernels is based on high levels mathematics. You can find ready-"
 "made kernels on the Web. Here are a few examples:"
 msgstr ""
-"Design of kernels is based on high levels mathematics. You can find ready-"
+"Design of kernels is based on high-level mathematics. But you can find ready-"
 "made kernels on the Web. Here are a few examples:"
 
 #: src/filters/generic/convol-matrix.xml:243(title)
@@ -608,7 +608,7 @@ msgid ""
 "Of course, if background is darker than foreground, it will cover the whole "
 "image."
 msgstr ""
-"Of course, if background is darker than foreground, it will cover the whole "
+"Of course, if the background is darker than the foreground, it will cover the whole "
 "image."
 
 #: src/filters/generic/dilate.xml:100(para)

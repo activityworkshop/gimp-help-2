@@ -82,7 +82,7 @@ msgstr "Overview"
 
 #: src/filters/blur/pixelise.xml:28(title)
 msgid "Example for the <quote>Pixelize</quote> filter"
-msgstr "Example for the <quote>Pixelize</quote> filter"
+msgstr "Example for the <quote>Pixelise</quote> filter"
 
 #: src/filters/blur/pixelise.xml:35(para) src/filters/blur/gauss.xml:36(para)
 #: src/filters/blur/tileable.xml:34(para) src/filters/blur/blur.xml:35(para)
@@ -92,7 +92,7 @@ msgstr "Original"
 
 #: src/filters/blur/pixelise.xml:44(para)
 msgid "<quote>Pixelize</quote> applied"
-msgstr "<quote>Pixelize</quote> applied"
+msgstr "<quote>Pixelise</quote> applied"
 
 #: src/filters/blur/pixelise.xml:48(para)
 msgid ""
@@ -101,7 +101,7 @@ msgid ""
 "trial. It is used for the <quote>Abraham Lincoln effect</quote>: see <xref "
 "linkend=\"bibliography-online-bach\"/>."
 msgstr ""
-"The Pixelize filter renders the image using large color blocks. It is very "
+"The Pixelise filter renders the image using large color blocks. It is very "
 "similar to the effect seen on television when obscuring a criminal during "
 "trial. It is used for the <quote>Abraham Lincoln effect</quote>: see <xref "
 "linkend=\"bibliography-online-bach\"/>."
@@ -135,7 +135,7 @@ msgstr "Options"
 
 #: src/filters/blur/pixelise.xml:71(title)
 msgid "<quote>Pixelize</quote> filter options"
-msgstr "<quote>Pixelize</quote> filter options"
+msgstr "<quote>Pixelise</quote> filter options"
 
 #: src/filters/blur/pixelise.xml:81(term)
 msgid "Pixel width"
@@ -329,7 +329,7 @@ msgid ""
 "If you want to treat only images borders, you can't apply filter to the "
 "whole image. The solution to get the wanted effect is as follows:"
 msgstr ""
-"If you want to treat only images borders, you can't apply filter to the "
+"If you want to treat only images borders, you can't apply a filter to the "
 "whole image. The solution to get the wanted effect is as follows:"
 
 #: src/filters/blur/tileable.xml:60(para)
@@ -470,14 +470,14 @@ msgstr ""
 
 #: src/filters/blur/blur.xml:54(para)
 msgid "Filter advantage is its calculation speed. It suits big images."
-msgstr "Filter advantage is its calculation speed. It suits big images."
+msgstr "The advantage of this filter is its calculation speed. It suits big images."
 
 #: src/filters/blur/blur.xml:57(para)
 msgid ""
 "Filter disadvantage is that its action is hardly perceptible on big images, "
 "but very strong on small images."
 msgstr ""
-"Filter disadvantage is that its action is hardly perceptible on big images, "
+"The disadvantage of this filter is that its action is hardly perceptible on big images, "
 "but very strong on small images."
 
 #: src/filters/blur/blur.xml:65(para)
@@ -561,7 +561,7 @@ msgstr "Blur radius"
 
 #: src/filters/blur/gauss_select.xml:87(para)
 msgid "Here you can set the blur intensity, in pixels."
-msgstr "Here you can set the blur intensity, in pixels."
+msgstr "Here you can set the blur extent, in pixels."
 
 #: src/filters/blur/gauss_select.xml:93(term)
 msgid "Max. delta"
@@ -723,7 +723,7 @@ msgstr ""
 
 #: src/filters/blur/introduction.xml:94(title)
 msgid "Pixelize"
-msgstr "Pixelize"
+msgstr "Pixelise"
 
 #: src/filters/blur/introduction.xml:102(para)
 msgid ""
@@ -733,7 +733,7 @@ msgid ""
 "a similar effect, but with irregular blobs instead of perfectly square "
 "pixels.)"
 msgstr ""
-"The Pixelize filter produces the well-known \"Abraham Lincoln\" effect by "
+"The Pixelise filter produces the well-known \"Abraham Lincoln\" effect by "
 "turning the image into a set of large square pixels. (The <link linkend="
 "\"plug-in-oilify\">Oilify</link> filter, in the Artistic Filters group, has "
 "a similar effect, but with irregular blobs instead of perfectly square "
@@ -894,8 +894,8 @@ msgid ""
 "blur, and a setting of 0 will produce a horizontal blur."
 msgstr ""
 "Is a blur that travels in a single direction, horizontally, for example. In "
-"this case, Length means as Radius in other filters:it represents the blur "
-"intensity. More Length will result in more blurring. Angle describes the "
+"this case, Length means as Radius in other filters: it represents the blur "
+"extent. More Length will result in more blurring. Angle describes the "
 "actual angle of the movement. Thus, a setting of 90 will produce a vertical "
 "blur, and a setting of 0 will produce a horizontal blur."
 
@@ -966,7 +966,7 @@ msgid ""
 "instance, you set rotation center. With Zoom Type, vanishing point. This "
 "option is greyed out with Linear type."
 msgstr ""
-"With this option, you can set the starting point of movement. Effect is "
+"With this option, you can set the starting point of movement. The effect is "
 "different according to the Blur Type you have selected. With Radial Type for "
 "instance, you set rotation center. With Zoom Type, vanishing point. This "
 "option is greyed out with Linear type."
@@ -979,9 +979,9 @@ msgid ""
 "Only copy them out into the input boxes."
 msgstr ""
 "You have to set the blur center coordinates. Unfortunately, you can't do "
-"that by clicking on the image. But, by moving mouse pointer on the image, "
+"that by clicking on the image. But, by moving the mouse pointer on the image, "
 "you can see its coordinates in the lower left corner of the image window. "
-"Only copy them out into the input boxes."
+"Just copy these out into the input boxes."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/blur/mblur.xml:0(None)
