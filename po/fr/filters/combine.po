@@ -381,7 +381,7 @@ msgstr " "
 #: src/filters/combine/film.xml:19(primary)
 #: src/filters/combine/film.xml:85(title)
 msgid "Filmstrip"
-msgstr "Bande de Bande de film"
+msgstr "Bande de film"
 
 #: src/filters/combine/film.xml:25(title)
 msgid "Applying example for the Filmstrip filter"
